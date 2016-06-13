@@ -1,0 +1,9 @@
+---- X264_BUILD Matches (8 in 4 files) ----
+Set.c (encoder):             X264_BUILD, X264_VERSION, HAVE_GPL?"left":"right", opts );
+X264.c:    printf( "x264 0.%d.X\n", X264_BUILD );
+X264.c:        X264_BUILD, X264_VERSION,
+X264.h:#define X264_BUILD 148
+X264.h:#define x264_encoder_open x264_encoder_glue2(x264_encoder_open_,X264_BUILD)
+X264res.rc:FILEVERSION     0, X264_BUILD, X264_REV, X264_REV_DIFF
+X264res.rc:PRODUCTVERSION  0, X264_BUILD, X264_REV, X264_REV_DIFF
+X264res.rc:            VALUE "OriginalFilename", "libx264-" xstr(X264_BUILD) ".dll"
